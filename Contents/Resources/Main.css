@@ -1,0 +1,33 @@
+body {
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	line-height: 20px;
+	font-size: 14px;
+}
+
+
+.time {
+    color: #667;
+}
+
+.content.incoming .sender {
+    font-weight: normal;
+}
+.content.outgoing .sender {
+    font-weight: bold;
+}
+
+.message {
+}
+
+.buddyicon img {
+    width: 48px;
+    height: 48px;
+    display: none;
+}
+
+
+
+.status span {
+    color: #669 !important;
+}
