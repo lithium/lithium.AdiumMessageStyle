@@ -1,32 +1,70 @@
 body {
-	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
-	line-height: 20px;
-	font-size: 14px;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 11px;
 }
 
 
-.time {
+
+
+
+/* Content */
+
+
+
+
+.content {
+    clear: both;
+}
+.content .buddyicon {
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+.content .time {
     color: #667;
+    float: left;
+}
+.content .sender {
+    min-width: 70px;
+    float: left;
+    text-align: right;
+    margin-right: 10px;
 }
 
-.content.incoming .sender {
+.content.incoming .sender .nick {
     font-weight: normal;
 }
-.content.outgoing .sender {
+.content.outgoing .sender .nick {
     font-weight: bold;
 }
 
-.message {
+.content .message {
 }
 
-.buddyicon img {
-    width: 48px;
-    height: 48px;
+
+.content.outgoing .buddyicon img,
+.content.incoming .buddyicon img {
+    width: 20px;
+    height: 20px;
+}
+.content.outgoing .buddyicon img {
     display: none;
 }
 
 
+.content.history {
+    color: #aaa;
+}
+
+
+
+
+/* Status */
+.status {
+    clear: both;
+}
 
 .status span {
     color: #669 !important;
