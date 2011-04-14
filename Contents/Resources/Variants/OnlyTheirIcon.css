@@ -1,0 +1,8 @@
+@import url(../Main.css);
+
+.content.incoming .buddyicon img {
+    display: inline !important;
+}
+.content.outgoing .buddyicon img {
+    display: none !important;
+}

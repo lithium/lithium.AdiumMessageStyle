@@ -1,0 +1,8 @@
+@import url(../Main.css);
+
+.content .buddyicon {
+    display: none !important;
+}
+.content .message {
+    padding-left: 142px !important;
+}

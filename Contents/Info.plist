@@ -5,11 +5,11 @@
 	<key>MessageViewVersion</key>
 	<integer>4</integer>
 	<key>CFBundleIdentifier</key>
-	<string>us.literat.lithium.0034.style</string>
+	<string>us.literat.lithium.000900.style</string>
 	<key>CFBundleName</key>
 	<string>lithium</string>
 	<key>CFBundleGetInfoString</key>
-	<string>0.7.1</string>
+	<string>0.9.0</string>
 	<key>DefaultFontFamily</key>
 	<string>Helvetica</string>
 	<key>DefaultFontSize</key>
@@ -17,14 +17,6 @@
 	<key>DefaultBackgroundColor</key>
 	<string>FFFFFF</string>
 	<key>AllowTextColors</key>
-	<false/>
-	<key>DefaultBackgroundColor:White-alternate</key>
-	<string>FFFFFF</string>
-	<key>DefaultBackgroundColor:Black</key>
-	<string>000000</string>
-	<key>AllowTextColors:Black</key>
-	<false/>
-	<key>DefaultBackgroundColor:Black-alternate</key>
-	<string>000000</string>
+	<true/>
 </dict>
 </plist>

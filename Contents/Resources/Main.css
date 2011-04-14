@@ -1,8 +1,8 @@
 body {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
-    line-height: 20px;
-    font-size: 11px;
+    line-height: 22px;
+    font-size: 12px;
 }
 
 
@@ -19,18 +19,20 @@ body {
 }
 .content .buddyicon {
     float: left;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
 }
 .content .time {
     color: #667;
     float: left;
+    margin-left: 5px;
 }
 .content .sender {
-    min-width: 70px;
+    min-width: 90px;
     float: left;
     text-align: right;
     margin-right: 10px;
+    margin-left: 10px;
 }
 
 .content.incoming .sender .nick {
@@ -41,21 +43,19 @@ body {
 }
 
 .content .message {
+    padding-left: 162px;
 }
 
-
-.content.outgoing .buddyicon img,
-.content.incoming .buddyicon img {
+.content .buddyicon img {
     width: 20px;
     height: 20px;
-}
-.content.outgoing .buddyicon img {
-    display: none;
+    margin: 1px;
 }
 
 
 .content.history {
-    color: #aaa;
+    color: #555;
+    background-color: #aaa;
 }
 
 
